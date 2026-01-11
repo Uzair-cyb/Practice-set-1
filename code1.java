@@ -8,7 +8,9 @@ import java.util.Scanner;
         System.out.print("Enter total marks: ");
         int total_marks = read.nextInt();
         double percentage = 1.0 * obtained_marks/total_marks * 100; 
-        System.out.print("Your percentage is: " + percentage);
+        System.out.print("Your percentage is: ");
+        System.out.print(percentage);
     }
  }
+
 
